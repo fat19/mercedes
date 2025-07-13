@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Mercedes-Benz | Luxury & Performance</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="logo">
+            <img src="images/logo.png" alt="Mercedes-Benz Logo" class="logo-img">
+        </div>
+        <div class="menu-toggle" id="mobile-menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </div>
+        <ul class="nav-menu">
+            <li><a href="#hero" class="nav-link">Home</a></li>
+            <li><a href="#showcase" class="nav-link">Models</a></li>
+            <li><a href="#about" class="nav-link">About</a></li>
+            <li><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="hero" class="hero-section">
+        <div class="hero-content">
+            <div class="hero-logo">
+                <img src="images/logo.png" alt="Mercedes-Benz Logo" class="hero-logo-img">
+            </div>
+            <h1 class="animate-text">The Future of Driving</h1>
+            <p class="slogan">Performance. Luxury. Excellence.</p>
+            <button class="cta-button">Discover Now</button>
+        </div>
+        <div class="hero-background">
+            <!-- Background will be set via CSS -->
+        </div>
+    </section>
+
+    <!-- Showcase Section -->
+    <section id="showcase" class="showcase-section">
+        <h2 class="section-title">Extraordinary by Design</h2>
+        <div class="showcase-grid">
+            <div class="showcase-item" data-index="0">
+                <div class="img-container">
+                    <img src="images/img1.jpg" alt="Mercedes-Benz Model" loading="lazy">
+                </div>
+                <div class="overlay">
+                    <h3>S-Class Sedan</h3>
+                    <p>The pinnacle of luxury</p>
+                </div>
+            </div>
+            <div class="showcase-item" data-index="1">
+                <div class="img-container">
+                    <img src="images/img2.jpg" alt="Mercedes-Benz Model" loading="lazy">
+                </div>
+                <div class="overlay">
+                    <h3>AMG GT Coupé</h3>
+                    <p>Performance redefined</p>
+                </div>
+            </div>
+            <div class="showcase-item" data-index="2">
+                <div class="img-container">
+                    <img src="images/img3.jpg" alt="Mercedes-Benz Model" loading="lazy">
+                </div>
+                <div class="overlay">
+                    <h3>EQS SUV</h3>
+                    <p>Electric intelligence</p>
+                </div>
+            </div>
+            <div class="showcase-item" data-index="3">
+                <div class="img-container">
+                    <img src="images/img4.jpg" alt="Mercedes-Benz Model" loading="lazy">
+                </div>
+                <div class="overlay">
+                    <h3>G-Class</h3>
+                    <p>Iconic strength</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about-section">
+        <div class="about-content">
+            <h2 class="section-title">Mercedes-Benz Heritage</h2>
+            <div class="about-text">
+                <p>For over a century, Mercedes-Benz has been committed to extraordinary engineering, innovation, and craftsmanship. Our pioneering spirit continues to push the boundaries of automotive excellence.</p>
+                <p>We believe in creating vehicles that inspire, that redefine what's possible, and that deliver an unmatched driving experience. Every detail, every curve, every innovation is designed with precision and purpose.</p>
+            </div>
+            <div class="values-grid">
+                <div class="value-item">
+                    <h3>Innovation</h3>
+                    <p>Pioneering technology that shapes the future of mobility</p>
+                </div>
+                <div class="value-item">
+                    <h3>Performance</h3>
+                    <p>Engineering excellence that delivers unmatched driving dynamics</p>
+                </div>
+                <div class="value-item">
+                    <h3>Luxury</h3>
+                    <p>Craftsmanship that exceeds the highest expectations</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact-section">
+        <h2 class="section-title">Experience The Drive</h2>
+        <div class="contact-container">
+            <form id="contact-form" class="contact-form">
+                <div class="form-group">
+                    <input type="text" id="name" name="name" placeholder="Name" required>
+                </div>
+                <div class="form-group">
+                    <input type="email" id="email" name="email" placeholder="Email" required>
+                </div>
+                <div class="form-group">
+                    <textarea id="message" name="message" placeholder="Message" required></textarea>
+                </div>
+                <button type="submit" class="cta-button form-button">Experience the Drive</button>
+            </form>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="footer-content">
+            <div class="footer-logo">
+                <img src="images/logo.png" alt="Mercedes-Benz Logo" class="logo-img">
+            </div>
+            <div class="copyright">
+                <p>© 2025 Mercedes-Benz. All Rights Reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
